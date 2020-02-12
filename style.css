@@ -19,16 +19,18 @@ body {
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-image: url("assets/newbusiness-card-backdesign.svg");
+
 
 }
 
 .front-side{
 background-image: url("assets/newbusiness-card-frontdesign.svg");
 }
-
+.back-side {
+background-image: url("assets/newbusiness-card-backdesign.svg");  
+}
 .name{
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 25%;
   display: grid;
   position: relative;
@@ -37,32 +39,20 @@ background-image: url("assets/newbusiness-card-frontdesign.svg");
 
 }
 
-.secondary{
-  display: grid;
-  position: relative;
-  margin-left:30px;
-
-}
 
 .icon-container{
-  width: 100%;
-  display:grid;
-  position:fixed;
-  bottom:0px;
-  left:0px;
-  grid-template-columns: 1fr 1fr 1fr;
+  width: 200px;
+  height: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: 
-  "a b c";
-  border: 4px solid plum;
+ position: relative;
+ margin-left: 20px;
+ grid-gap: 10px;
+    
+
+
+  
 }
-
-/* .circle{
-  background-image: url("/assets/circle.svg");
-  grid-area: a;
-} */
-
-
 /* h3{
   margin-bottom: 0px;
 }
