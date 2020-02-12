@@ -41,12 +41,14 @@ background-image: url("assets/newbusiness-card-backdesign.svg");
 
 
 .icon-container{
-  width: 200px;
-  height: 100px;
+  width: 80%;
+  /* height: 100px; */
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
  position: relative;
- margin-left: 20px;
+ margin-top: 30%;
+ margin-left: 60px;
  grid-gap: 10px;
     
 
